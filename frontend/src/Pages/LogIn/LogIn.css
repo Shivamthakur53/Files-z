@@ -22,6 +22,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+.img-box {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 150px;
+  width: 100%;
+}
 .head {
   font-size: 60px;
   color: #224957;
@@ -53,34 +62,48 @@ input {
   box-shadow: var(--box-shadow);
 }
 
-.loginbtn {
-  padding: 20px;
-  border-radius: 15px;
-  background-color: #20df7f;
-  box-shadow: var(--box-shadow);
-}
-
-.loginbtn:hover {
-  background-color: #336b4f;
-  color: #ffffff;
-}
-
 .additional-info {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.forgot-password {
-  font-size: 14px;
-  cursor: pointer;
-  margin-right: 5rem;
-}
-
 .chek {
+  width: 100px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .chek p {
   font-size: 14px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  cursor: pointer;
+  color: #224957;
+  font-weight: 700;
+}
+
+.forgot-password:hover {
+  color: #20df7f;
+  transition: 0.2s ease-in;
+}
+
+.loginbtn {
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #20df7f;
+  box-shadow: var(--box-shadow);
+  font-size: 18px;
+}
+
+.loginbtn:hover {
+  background-color: #336b4f;
+  color: #ffffff;
+  transition: 0.2s ease-in;
 }

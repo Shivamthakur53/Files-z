@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./LogIn.css";
+import Logo from "../../assets/mainlogo.png";
 const LogIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,6 +17,9 @@ const LogIn = () => {
   return (
     <div>
       <div className="container">
+        <div className="img-box">
+          <img src={Logo} alt="" className="logo" />
+        </div>
         <h1 className="head">Login</h1>
         <p className="paragrp">Please login to continue</p>
         <input
@@ -35,7 +39,7 @@ const LogIn = () => {
         <div className="additional-info">
           <div className="chek">
             <input type="checkbox" />
-            <p>Remember me</p>
+            <p>Remember Me</p>
           </div>
           <p className="forgot-password">Forgot password?</p>
         </div>
