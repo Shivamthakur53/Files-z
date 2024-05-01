@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* background: #e5e5e5; */
+  border-right: 2px solid #000;
+}
+
+.add {
+  margin-top: 100px;
+}
+
+.home,
+.shared,
+.recent,
+.starred,
+.spam,
+.trash {
+  display: flex;
+  margin-left: 10px;
+  /* margin-right: 30px; */
+}
+
+.home ion-icon,
+.shared ion-icon,
+.recent ion-icon,
+.starred ion-icon,
+.spam ion-icon,
+.trash ion-icon {
+  margin-right: 30px;
+}
