@@ -6,7 +6,7 @@
 
 .sidebar {
   width: 300px;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   /* background: #e5e5e5; */
@@ -14,7 +14,40 @@
 }
 
 .add {
-  margin-top: 100px;
+  margin-top: 10px;
+}
+
+.add-new {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  padding: 10px;
+  font-size: 2rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.add-new p,
+ion-icon {
+  margin-right: 1px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 2.4rem;
+}
+
+.add-new:hover {
+  background: #343434;
+  color: #ffffff;
+}
+
+.home {
+  margin-bottom: 20px;
+}
+
+.starred {
+  margin-bottom: 20px;
 }
 
 .home,
@@ -25,7 +58,8 @@
 .trash {
   display: flex;
   margin-left: 10px;
-  /* margin-right: 30px; */
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .home ion-icon,
@@ -35,4 +69,28 @@
 .spam ion-icon,
 .trash ion-icon {
   margin-right: 30px;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.home p,
+.shared p,
+.recent p,
+.starred p,
+.spam p,
+.trash p {
+  font-size: 2.4rem;
+  margin-top: 20px;
+}
+
+.home:hover,
+.shared:hover,
+.recent:hover,
+.starred:hover,
+.spam:hover,
+.trash:hover {
+  background: #fefefe;
+  transition: 2s ease;
+  border-radius: 20px;
 }
