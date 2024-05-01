@@ -1,19 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .main-container {
   display: flex;
   max-width: 100%;
   flex-direction: row;
   text-align: center;
-  justify-content: space-around;
+
   border-bottom: 2px solid black;
   height: 80px;
 }
 
-.img-box img {
-  width: 100px;
-  height: 100px;
+.img-box1 img {
+  width: 70px;
+  height: 70px;
+}
+.img-box1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
 .navinput {
-  width: 30%;
-  background-color: rgb(126, 126, 127);
+  width: 500px;
+  background-color: #b5d6f0;
 }
+/* .child-Container {
+  display: flex;
+} */

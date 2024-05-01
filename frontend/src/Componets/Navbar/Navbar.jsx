@@ -5,11 +5,17 @@ const Navbar = () => {
   return (
     <div>
       <div className="main-container">
-        <div className="img-box">
+        <div className="img-box1">
           <img src={Logo} alt="" className="logo" />
+          <h2>Drive</h2>
         </div>
-        <h2>Drive</h2>
-        <input className="navinput" type="text" placeholder="Search in Drive" />
+        <div className="input-container">
+          <input
+            className="navinput"
+            type="text"
+            placeholder="Search in Drive"
+          />
+        </div>
       </div>
     </div>
   );
