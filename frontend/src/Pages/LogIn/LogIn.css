@@ -100,6 +100,7 @@ input {
   background-color: #20df7f;
   box-shadow: var(--box-shadow);
   font-size: 18px;
+  border: none;
 }
 
 .loginbtn:hover {

@@ -1,0 +1,16 @@
+.main-container {
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+.img-box img {
+  width: 100px;
+  height: 100px;
+}
+
+.navinput {
+  width: 30%;
+  background-color: rgb(126, 126, 127);
+}
