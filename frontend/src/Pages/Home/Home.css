@@ -26,3 +26,9 @@
     height: 90vh;
   }
 }
+@media screen and (min-width: 1243px) {
+  .main-div {
+    max-width: 128rem;
+    height: 88vh;
+  }
+}
