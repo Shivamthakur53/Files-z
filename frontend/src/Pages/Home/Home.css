@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div {
+  width: 70%;
+  background-color: blue;
+  margin: 0 auto;
+  margin-left: 40rem;
+  margin-top: -17rem;
+}
+.heading {
+  margin: 0 auto;
+}

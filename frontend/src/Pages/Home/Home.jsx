@@ -1,4 +1,5 @@
 import React from "react";
+import "../Home/Home.css";
 import Sidebar from "../../Componets/Sidebar/Sidebar";
 import Navbar from "../../Componets/Navbar/Navbar";
 
@@ -6,6 +7,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
+
       <Sidebar />
     </div>
   );

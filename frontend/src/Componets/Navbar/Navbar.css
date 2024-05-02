@@ -24,9 +24,28 @@
 }
 
 .navinput {
-  width: 500px;
+  width: 700px;
   background-color: #b5d6f0;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  border-radius: 26px;
 }
-/* .child-Container {
+
+.Drive {
+  font-size: 30px;
+  color: #584a4a;
+  margin-top: 24px;
+  padding: 13px;
+}
+
+.main-icon {
   display: flex;
-} */
+  align-items: center;
+  margin: 0 auto;
+  gap: 38px;
+}
+
+.Question,
+.setting {
+  font-size: 20px;
+}
