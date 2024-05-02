@@ -19,3 +19,10 @@
   left: 29rem;
   height: 88vh;
 }
+
+@media screen and (min-width: 1440px) {
+  .main-div {
+    max-width: 140rem;
+    height: 90vh;
+  }
+}
