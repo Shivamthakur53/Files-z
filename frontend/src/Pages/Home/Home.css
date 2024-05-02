@@ -6,16 +6,16 @@
 /* Example of adjusting styles for Home component */
 .heading {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .main-div {
-  padding: 20px;
+  padding: 2rem;
   background-color: #f5f5f5;
   border: 1px solid #ddd;
-  border-radius: 20px;
-  width: 1256px;
+  border-radius: 2rem;
+  max-width: 140rem;
   position: relative;
   left: 29rem;
-  height: 88vh;
+  height: 73rem;
 }
