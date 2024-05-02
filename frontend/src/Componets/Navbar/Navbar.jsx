@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="main-container">
         <div className="img-box1">
           <img src={Logo} alt="" className="logo" />
-          <h2 className="Drive">Drive</h2>
+          <h2 className="Drive">Filez</h2>
         </div>
         <div className="input-container">
           <input
