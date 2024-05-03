@@ -92,6 +92,6 @@ ion-icon {
 .spam:hover,
 .trash:hover {
   background: #fefefe;
-  transition: 2s ease;
-  border-radius: 20px;
+  transition: 0.5s all linear;
+  border-radius: 10px;
 }

@@ -22,6 +22,31 @@ const Home = () => {
 
         <div className="main-div">
           <h1>Welcome to Filez</h1>
+          <div className="scroll-div">
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+            <p>hy cjhsdvwejcvkswdgj</p>
+          </div>
         </div>
       </div>
     </div>
