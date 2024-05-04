@@ -50,3 +50,40 @@
 .setting {
   font-size: 20px;
 }
+
+/* profile hover  */
+
+.icon-container {
+  position: absolute;
+  display: inline-block;
+}
+
+.ion {
+  font-size: 24px;
+  color: #333;
+}
+
+.hover-box {
+  position: absolute;
+  top: 4rem;
+  z-index: 2;
+  left: 40%;
+  /* right: 20px; */
+  transform: translate(-50%);
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+  width: 250px;
+  height: 80px;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+
+.icon-container:hover .hover-box {
+  visibility: visible;
+  opacity: 1;
+}

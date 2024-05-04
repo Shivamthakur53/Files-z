@@ -3,7 +3,7 @@ import "./LogIn.css";
 import axios from "axios";
 import { toast } from "react-toastify";
 import Logo from "../../assets/mainlogo.png";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const LogIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -78,6 +78,11 @@ const LogIn = () => {
             Login
           </button>
         </form>
+        <div className="signup-link-container">
+          <p className="signup-link-text">
+            Don't have an account? <Link to="/signup">Sign up here</Link>
+          </p>
+        </div>
       </div>
     </div>
   );

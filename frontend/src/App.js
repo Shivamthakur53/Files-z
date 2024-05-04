@@ -1,4 +1,5 @@
 import "./App.css";
+import Navbar from "./Componets/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
 import LogIn from "./Pages/LogIn/LogIn";
 import SignUp from "./Pages/SignUp/SignUp";

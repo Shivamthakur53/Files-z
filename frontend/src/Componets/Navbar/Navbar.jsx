@@ -24,8 +24,9 @@ const Navbar = () => {
           <div className="Setting">
             <ion-icon name="settings-outline"></ion-icon>
           </div>
-          <div className="Profile">
-            <ion-icon name="ellipse-outline"></ion-icon>{" "}
+          <div className="icon-container">
+            <ion-icon name="person-circle-outline"></ion-icon>{" "}
+            <div className="hover-box">Google Acount</div>
           </div>
         </div>
       </div>
